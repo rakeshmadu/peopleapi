@@ -4,8 +4,6 @@ from pymongo import MongoClient
 from django.http import JsonResponse
 from django.shortcuts import render
 
-# Create your views here.
-
 client=MongoClient()
 db= client['peoples']
 
